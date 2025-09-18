@@ -27,7 +27,8 @@ function LiveInput() {
                 concepts="useState, Controlled components, Real-time updates, Conditional rendering, Event handlers, Character counting"
             />
             
-            <textarea 
+            <div style={{ marginTop: '2rem' }}>
+                <textarea 
             value={input}
             onChange={ (event) => updateInfo(event.target.value)} 
             />
@@ -41,6 +42,7 @@ function LiveInput() {
             </p>
 
             <button onClick={clearData}> Clear </button>
+            </div>
         </div>
     )
 }

@@ -32,7 +32,7 @@ function TimerPrompt() {
             ]}
             concepts="useState, useEffect, setInterval, clearInterval, Component cleanup, Time formatting"
             />
-            <div style={{margin: '2em'}}>
+            <div style={{ marginTop: '2rem' }}>
                 {seconds}
                 <span style={{margin: '0 2em'}} ></span>
                 <button onClick={ () => {setIsRunning(!isRunning)}}>{isRunning ? 'Stop' : 'Start' }</button>

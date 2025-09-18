@@ -39,7 +39,8 @@ function TodoList() {
                 concepts="useState, Array state management, Immutable updates, Event handlers, Conditional rendering, Form handling"
             />
             
-            <input
+            <div style={{ marginTop: '2rem' }}>
+                <input
             value={task}
             onChange={ (e) => setTask(e.target.value) }
             />
@@ -57,6 +58,7 @@ function TodoList() {
                     {todo.text}
                 </li>
             ))}
+            </div>
         </div>
     )
 }

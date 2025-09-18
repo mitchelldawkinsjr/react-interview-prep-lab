@@ -50,7 +50,8 @@ function AnimalFactsApp() {
                 concepts="useState, Object manipulation, Array methods, Conditional rendering, Event handlers"
             />
             
-            <h2> Fun Facts about animals</h2>
+            <div style={{ marginTop: '2rem' }}>
+                <h2> Fun Facts about animals</h2>
             <ul style={{listStyle:'none',padding:0}}>
                 {Object.keys(animals).map((animal) => (
                     <li key={animal}>
@@ -66,6 +67,7 @@ function AnimalFactsApp() {
                     <button onClick={clearFact} style={{marginTop: '0.5rem'}}>Clear</button>
                 </div>
             )}
+            </div>
         </div>
     )
 }
