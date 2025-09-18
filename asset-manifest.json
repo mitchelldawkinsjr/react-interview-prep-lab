@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/react-interview-prep-lab/static/css/main.cb611f21.css",
-    "main.js": "/react-interview-prep-lab/static/js/main.2e8f1879.js",
+    "main.js": "/react-interview-prep-lab/static/js/main.21d566ab.js",
     "index.html": "/react-interview-prep-lab/index.html",
     "main.cb611f21.css.map": "/react-interview-prep-lab/static/css/main.cb611f21.css.map",
-    "main.2e8f1879.js.map": "/react-interview-prep-lab/static/js/main.2e8f1879.js.map"
+    "main.21d566ab.js.map": "/react-interview-prep-lab/static/js/main.21d566ab.js.map"
   },
   "entrypoints": [
     "static/css/main.cb611f21.css",
-    "static/js/main.2e8f1879.js"
+    "static/js/main.21d566ab.js"
   ]
 }
