@@ -5,7 +5,7 @@ import LiveInput from './components/live-input';
 import TodoList from './components/todo-list';
 import FetchUser from './components/fetch-user';
 import Counter from './components/counter';
-import TimerPrompt from './components/prompts/timer-prompt';
+import TimerPrompt from './components/advanced/timer-prompt';
 
 function App() {
   return (
@@ -36,7 +36,6 @@ function App() {
         <h2>5. Fetch User</h2>
         <FetchUser />
       </section>
-
 
       <section style={{ marginBottom: '2rem' }}>
         <h2>6. Counter</h2>
