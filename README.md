@@ -33,7 +33,7 @@ Navigate through the components in your browser:
 
 ## 🌐 Live Demo
 
-**View the live app**: [https://mitchelldawkins.github.io/react-techincal-prep](https://mitchelldawkins.github.io/react-techincal-prep)
+**View the live app**: [https://mitchelldawkinsjr.github.io/react-interview-prep-lab](https://mitchelldawkinsjr.github.io/react-interview-prep-lab)
 
 ## 📦 Deploy to GitHub Pages
 
@@ -52,7 +52,7 @@ npx gh-pages -d build
 2. Run `npm run deploy`
 3. Go to your repo Settings → Pages
 4. Select "gh-pages" branch as source
-5. Your site will be available at `https://yourusername.github.io/react-techincal-prep`
+5. Your site will be available at `https://yourusername.github.io/react-interview-prep-lab`
 
 ## 📚 Component Categories
 

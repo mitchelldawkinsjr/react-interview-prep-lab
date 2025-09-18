@@ -21,7 +21,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://mitchelldawkins.github.io/react-techincal-prep",
+  "homepage": "https://mitchelldawkinsjr.github.io/react-interview-prep-lab",
   "eslintConfig": {
     "extends": [
       "react-app",
