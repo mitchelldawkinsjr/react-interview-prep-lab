@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Prompt from './prompt';
 
 const animals = {
     'dog' : {
@@ -36,6 +37,19 @@ function AnimalFactsApp() {
 
     return (
         <div style={{padding: '1rem', fontFamily: 'Arial'}}>
+            <Prompt
+                title="Animal Facts Component"
+                list={[
+                    'Display buttons for different animals (dog, cat, rabbit)',
+                    'When clicked, show a random fact about that animal',
+                    'Display the selected animal name and fact',
+                    'Add a "Clear" button to hide the fact',
+                    'Use object data structure to store animal facts',
+                    'Implement random fact selection from arrays'
+                ]}
+                concepts="useState, Object manipulation, Array methods, Conditional rendering, Event handlers"
+            />
+            
             <h2> Fun Facts about animals</h2>
             <ul style={{listStyle:'none',padding:0}}>
                 {Object.keys(animals).map((animal) => (

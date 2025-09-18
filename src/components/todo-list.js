@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Prompt from './prompt';
 
 function TodoList() {
     const [task, setTask] = useState('');
@@ -24,6 +25,20 @@ function TodoList() {
 
     return(
         <div>
+            <Prompt
+                title="Todo List Component"
+                list={[
+                    'Create an input field for adding new tasks',
+                    'Add a button to submit new tasks',
+                    'Display a list of all tasks with checkboxes',
+                    'Allow marking tasks as complete/incomplete',
+                    'Add delete functionality for each task',
+                    'Show visual feedback for completed tasks (strikethrough)',
+                    'Prevent adding empty tasks'
+                ]}
+                concepts="useState, Array state management, Immutable updates, Event handlers, Conditional rendering, Form handling"
+            />
+            
             <input
             value={task}
             onChange={ (e) => setTask(e.target.value) }
