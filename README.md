@@ -29,7 +29,30 @@ Your app will open at `http://localhost:3000`
 Navigate through the components in your browser:
 - **Basic Components**: Counter, TodoList, ColorPicker
 - **Intermediate**: FormValidation, FetchUser, LiveInput
-- **Advanced**: Check the `prompts/` folder for practice challenges
+- **Advanced**: Check the `advanced/` folder for practice challenges
+
+## 🌐 Live Demo
+
+**View the live app**: [https://mitchelldawkins.github.io/react-techincal-prep](https://mitchelldawkins.github.io/react-techincal-prep)
+
+## 📦 Deploy to GitHub Pages
+
+### Deploy Commands
+```bash
+# Build and deploy to GitHub Pages
+npm run deploy
+
+# Or manually:
+npm run build
+npx gh-pages -d build
+```
+
+### First Time Setup
+1. Make sure your repo is pushed to GitHub
+2. Run `npm run deploy`
+3. Go to your repo Settings → Pages
+4. Select "gh-pages" branch as source
+5. Your site will be available at `https://yourusername.github.io/react-techincal-prep`
 
 ## 📚 Component Categories
 
