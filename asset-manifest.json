@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/react-techincal-prep/static/css/main.e6c13ad2.css",
-    "main.js": "/react-techincal-prep/static/js/main.5d0915d0.js",
-    "index.html": "/react-techincal-prep/index.html",
-    "main.e6c13ad2.css.map": "/react-techincal-prep/static/css/main.e6c13ad2.css.map",
-    "main.5d0915d0.js.map": "/react-techincal-prep/static/js/main.5d0915d0.js.map"
+    "main.css": "/react-interview-prep-lab/static/css/main.e6c13ad2.css",
+    "main.js": "/react-interview-prep-lab/static/js/main.5d0915d0.js",
+    "index.html": "/react-interview-prep-lab/index.html",
+    "main.e6c13ad2.css.map": "/react-interview-prep-lab/static/css/main.e6c13ad2.css.map",
+    "main.5d0915d0.js.map": "/react-interview-prep-lab/static/js/main.5d0915d0.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
